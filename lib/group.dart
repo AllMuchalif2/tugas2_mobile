@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:tugas2/anggota/alif.dart';
 import 'package:tugas2/anggota/dika.dart';
