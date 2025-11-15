@@ -20,16 +20,10 @@ class DikaPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF7F9FC),
       appBar: AppBar(
-        title: const Text(
-          'Profil Pradika Satia Putra',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-          ),
-        ),
-        centerTitle: true,
-        elevation: 4,
+        title: const Text('Profil Mahasiswa'),
         backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Column(

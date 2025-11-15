@@ -63,6 +63,10 @@ class ImanPage extends StatelessWidget {
                 Divider(),
                 ElevatedButton(
                   child: Text('Kembali'),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
+                  ),
                   onPressed: () {
                     Navigator.pop(context);
                   },

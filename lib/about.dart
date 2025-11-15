@@ -72,6 +72,10 @@ class AboutPage extends StatelessWidget {
               SizedBox(height: 10),
               ElevatedButton(
                 child: Text('Kembali'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  foregroundColor: Colors.black,
+                ),
                 onPressed: () {
                   Navigator.pop(context);
                 },
